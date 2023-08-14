@@ -1,0 +1,19 @@
+{
+    "name": "Roblox Horrorlist Addon",
+    "version": "1.0.0",
+    "description": "Displays information on a Roblox horror game based on data from robloxhorrorlist.com!",
+    "manifest_version": 3,
+    "author": "nouhidev",
+    "content_scripts": [
+        {
+            "matches": ["https://www.roblox.com/games/*"],
+            "js": ["script.js"]
+        }
+    ],
+    "icons": {
+        "128": "icon128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
